@@ -1,0 +1,984 @@
+/******fonts******/
+/*****************/
+
+@font-face
+{
+  font-family: 'Playfair Display';
+
+  src: url(../fonts/PlayfairDisplayBold.ttf);
+}
+
+@font-face
+{
+  font-family: 'Scriptina';
+
+  src: url(../fonts/scriptina.ttf);
+}
+
+@font-face
+{
+  font-family: 'Alegreya';
+
+  src: url(../fonts/Alegreya-Regular.otf);
+}
+
+@font-face
+{
+  font-family: 'Proxima Nova';
+
+  src: url(../fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face
+{
+  font-family: 'Alegreya-Bold';
+
+  src: url(../fonts/Alegreya-Bold.otf);
+}
+
+html
+{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/******main******/
+/****************/
+
+.main
+{
+  height: 900px;
+
+  background: url(../images/main-bg.png) center center no-repeat;
+  background-size: cover;
+}
+
+.navbar-default
+{
+  height: 70px;
+
+  border-style: none;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.main h1
+{
+  font-family: 'Playfair Display';
+  font-size: 5.75vw;
+  font-weight: bold;
+  line-height: 1;
+
+  margin-top: 135px;
+  margin-bottom: 90px;
+
+  letter-spacing: 7px;
+
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px 0 rgba(61, 48, 41, .004);
+}
+
+.main h2
+{
+  font-family: 'Proxima Nova';
+  font-size: 24px;
+  line-height: 1.5;
+
+  margin: 0;
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px 0 rgba(61, 48, 41, .004);
+}
+
+.menu-button
+{
+  font-family: 'Alegreya';
+  font-size: 14px;
+  font-weight: bold;
+
+  display: block;
+
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 67px;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: rgb(255, 255, 255);
+  border: 1px dashed rgb(158, 156, 147);
+  background-color: rgba(86, 83, 76, .529);
+}
+
+.navbar-default .navbar-brand
+{
+  font-family: 'Scriptina';
+  font-size: 30px;
+  line-height: .8;
+
+  height: 70px;
+
+  color: rgb(255, 255, 255);
+}
+
+.navbar-header
+{
+  color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav > li > a
+{
+  font-family: 'Alegreya';
+  font-size: 14px;
+  line-height: 3;
+
+  text-transform: uppercase;
+
+  color: rgb(255, 255, 255);
+}
+.primary-menu a
+{
+  text-decoration: none;
+
+  color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+  background-color: white;
+}
+
+#bs-example-navbar-collapse-1[aria-expanded='true']
+{
+  position: relative;
+  z-index: 1;
+
+  border-top: none;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.icon1
+{
+  display: block;
+
+  margin-top: 29px;
+  margin-left: 18px;
+
+  background: url(../images/twitter.png) no-repeat 0 0;
+}
+
+.icon2
+{
+  margin-top: 29px;
+  margin-left: 18px;
+
+  background: url(../images/facebook.png) no-repeat 0 0;
+}
+
+.icon3
+{
+  margin-top: 29px;
+  margin-left: 18px;
+
+  background: url(../images/instagram.png) no-repeat 0 0;
+}
+
+/******bap******/
+/***************/
+
+.bap
+{
+  margin-top: -108px;
+
+  text-align: center;
+}
+
+.bap span
+{
+  position: relative;
+}
+
+.bap-inner
+{
+  position: absolute;
+  top: -27px;
+  left: 14px;
+
+  border: 14px white solid;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+/******cakes******/
+/*****************/
+
+.cakes
+{
+  margin-top: -53px;
+  /*  border: 1px solid;
+*/
+
+  background-color: #fdfdfc;
+}
+
+.cakes-left
+{
+  text-align: center;
+
+  color: #56534c;
+}
+
+.cakes-left h1
+{
+  font: 48px 'Alegreya-Bold';
+
+  margin-top: 95px;
+  margin-bottom: 0;
+}
+
+.cakes-left h2
+{
+  font: 14px 'Alegreya-Bold';
+
+  margin-top: 0;
+  margin-bottom: 60px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #a47d5e;
+}
+
+.cakes-left .cook-words
+{
+  font: 14px 'Proxima Nova';
+  line-height: 1.714;
+
+  width: 490px;
+  margin: 0 auto;
+
+  letter-spacing: 1px;
+}
+
+.cakes-left .rank
+{
+  font: 24px 'Alegreya-Bold';
+
+  margin-top: 42px;
+  margin-bottom: 30px;
+}
+
+.cook-name
+{
+  position: relative;
+
+  width: 375px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.cook-name p
+{
+  font: 24px 'Alegreya';
+  line-height: 60px;
+
+  position: absolute;
+  top: 20px;
+
+  width: 110px;
+  height: 60px;
+
+  border-top: 1px rgb(215, 213, 202) solid;
+  border-bottom: 1px rgb(215, 213, 202) solid;
+}
+
+.cook-name .surname
+{
+  left: 260px;
+}
+
+.citation
+{
+  width: 415px;
+  height: 100px;
+  margin: 41px auto;
+}
+
+.citation p
+{
+  font-family: 'Times New Roman';
+  font-size: 60px;
+  line-height: .5;
+
+  color: rgba(86, 83, 76, .502);
+}
+
+.citation p:first-child
+{
+  margin-bottom: 0;
+
+  text-align: left;
+}
+
+.citation p:last-child
+{
+  text-align: right;
+}
+
+.citation .words
+{
+  font-family: 'Scriptina';
+  font-size: 24px;
+  line-height: 1.25;
+
+  color: #a47d5e;
+}
+
+.cakes-right
+{
+  height: 760px;
+  padding: 0;
+}
+
+.cakes-wrap
+{
+  position: relative;
+
+  width: 570px;
+  height: 500px;
+  margin: 130px auto;
+}
+
+.cakes-wrap p
+{
+  font-family: 'Alegreya';
+  font-size: 30px;
+  line-height: 1.2;
+
+  position: absolute;
+  top: 210px;
+  left: 210px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: rgb(201, 177, 118);
+}
+
+.cakes-wrap p:last-child
+{
+  top: 240px;
+  left: 237px;
+}
+
+.cakes-right .cake
+{
+  width: 260px;
+  margin: 10px;
+
+  outline: 6px solid #f5f5f5;
+  outline-offset: -11px;
+}
+
+.so-good
+{
+  position: absolute;
+  top: 114px;
+  left: 143px;
+
+  opacity: .9;
+}
+
+/******pancakes******/
+/********************/
+
+.pancakes
+{
+  background: url(../images/pancakes-bg.png) center center no-repeat;
+  background-size: cover;
+}
+
+.pancakes-left
+{
+  height: 760px;
+  margin-top: 140px;
+
+  text-align: center;
+}
+
+.pancakes-right
+{
+  position: relative;
+}
+
+.tasty
+{
+  position: relative;
+
+  width: 540px;
+  height: 513px;
+  margin: 140px auto;
+  padding-top: 66px;
+  padding-left: 65px;
+  /*background: url(../images/tasty-bg.png);*/
+
+  background-color: white;
+}
+
+
+
+.tasty img
+{
+  position: absolute;
+  top: 225px;
+  left: 278px;
+}
+
+.tasty h1
+{
+  font-family: 'Alegreya-Bold';
+  font-size: 48px;
+  line-height: .625;
+
+  color: #56534c;
+}
+
+.tasty h2
+{
+  font-family: 'Alegreya-Bold';
+  font-size: 14px;
+  line-height: .625;
+
+  letter-spacing: 1px;
+
+  color: #a47d5e;
+}
+
+.tasty p
+{
+  font-family: 'Proxima Nova';
+  font-size: 14px;
+  line-height: 1.714;
+
+  width: 380px;
+  margin-top: 65px;
+
+  letter-spacing: 1px;
+
+  color: rgb(86, 83, 76);
+}
+
+.ready
+{
+  font-family: 'Alegreya-Bold';
+
+  position: absolute;
+  top: -40px;
+  left: 370px;
+
+  width: 200px;
+  height: 200px;
+  padding-top: 34px;
+
+  text-align: center;
+
+  background-image: url(../images/ready-bg.png);
+  box-shadow: -10px 10px 20px #888;
+}
+
+.ready h1
+{
+  font-size: 18px;
+
+  margin: 0;
+
+  text-transform: uppercase;
+
+  color: rgb(164, 125, 94);
+}
+
+.ready h2
+{
+  font-size: 92px;
+
+  margin: 30px;
+
+  color: #dfc691;
+}
+
+.ready h3
+{
+  font-size: 18px;
+
+  margin: 0;
+
+  color: #979285;
+}
+
+/******carousel******/
+/********************/
+
+.carousel
+{
+  width: 480px;
+  margin: -260px auto 0;
+}
+
+.item
+{
+  padding-left: 72px;
+}
+
+.item img
+{
+  margin-right: 34px;
+}
+
+.carousel-control.left,
+.carousel-control.right
+{
+  font-size: 20px;
+
+  width: 35px;
+  height: 35px;
+  margin-top: 24px;
+
+  color: #674b35;
+  border: 2px solid #674b35;
+  border-radius: 50% 50%;
+  background-image: none;
+}
+
+/******breakfast******/
+/*********************/
+
+.breakfast
+{
+  background: url(../images/breakfast-bg.png) center center no-repeat;
+  background-size: cover;
+}
+
+.breakfast-left
+{
+  height: 760px;
+
+  text-align: center;
+}
+
+.breakfast-left h1
+{
+  font: 60px 'Alegreya-Bold';
+
+  margin: 66px 0 0;
+
+  letter-spacing: 3px;
+
+  color: white;
+}
+
+.breakfast-left h2
+{
+  font: 30px 'Alegreya-Bold';
+
+  margin: 48px 0 0;
+
+  letter-spacing: 2px;
+
+  color: white;
+}
+
+.we-open
+{
+  font: 18px 'Alegreya-Bold';
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #c8a593;
+}
+
+.description
+{
+  font: 16px 'Proxima Nova';
+
+  letter-spacing: 1px;
+
+  color: #c2beba;
+}
+
+.price
+{
+  font: 36px 'Alegreya';
+
+  color: #dfc691;
+}
+
+.breakfast-right
+{
+  height: 760px;
+}
+
+.breakfast-menu
+{
+  position: relative;
+
+  width: 466px;
+  height: 601px;
+  margin: 89px auto 0;
+}
+
+.breakfast-menu .menu-wrap
+{
+  width: 441px;
+  height: 569px;
+  padding: 12px;
+
+  background: url(../images/spica.png) 265px 446px no-repeat,
+  #f3f1e9;
+}
+
+.breakfast-menu .menu-wrap .dashed
+{
+  height: 557px;
+  padding-top: 40px;
+
+  text-align: center;
+
+  border: 1px dashed #9e9c93;
+  border-bottom-style: none;
+}
+
+.corner
+{
+  float: left;
+
+  width: 32px;
+  height: 32px;
+
+  border: 16px solid;
+  border-color: #fafafa #fafafa transparent transparent;
+}
+
+.bottom
+{
+  position: relative;
+
+  float: left;
+
+  width: 409px;
+  height: 32px;
+
+  background: url(../images/spica.png) 233px -124px no-repeat,
+  #f3f1e9;
+}
+
+.bottom .dashed
+{
+  position: absolute;
+
+  width: 397px;
+  height: 20px;
+
+  border-right: 1px dashed #9e9c93;
+  border-bottom: 1px dashed #9e9c93;
+}
+
+.shadow
+{
+  position: absolute;
+  top: 26px;
+  left: 441px;
+
+  width: 13px;
+  height: 550px;
+
+  background: #d8d4c5;
+}
+
+.shadow .dashed
+{
+  position: absolute;
+  top: 12px;
+
+  width: 4px;
+  height: 526px;
+
+  border: 1px dashed #7a776a;
+  border-left-style: none;
+  background: #d8d4c5;
+}
+
+.shadow2
+{
+  position: absolute;
+  top: 52px;
+  left: 454px;
+
+  width: 13px;
+  height: 500px;
+
+  background: #bebbaf;
+}
+
+.shadow2 .dashed
+{
+  position: absolute;
+  top: 12px;
+
+  width: 4px;
+  height: 474px;
+
+  border: 1px dashed #7a776a;
+  border-left-style: none;
+  background: #bebbaf;
+}
+
+.breakfast-menu .est,
+.breakfast-menu .year
+{
+  font: 14px 'Alegreya-Bold';
+
+  letter-spacing: 1px;
+
+  color: #56534c;
+}
+
+.breakfast-menu .year
+{
+  margin-left: 163px;
+}
+
+.breakfast-menu img
+{
+  margin-top: 20px;
+}
+
+.pretzel
+{
+  position: absolute;
+  top: 104px;
+  left: 35px;
+}
+
+.pretzel .circle
+{
+  float: left;
+
+  width: 11px;
+  height: 11px;
+
+  border: 1px solid #c2beba;
+  border-radius: 5px;
+}
+
+.pretzel .line
+{
+  float: left;
+
+  width: 144px;
+  margin-top: 5px;
+
+  border-top: 1px solid #c2beba;
+}
+
+.pretzel .big-circle
+{
+  float: left;
+
+  width: 60px;
+  height: 60px;
+  margin-top: -25px;
+
+  border: 1px solid #c2beba;
+  border-radius: 60px;
+}
+
+.breakfast-menu h1
+{
+  font: 44px 'Alegreya-Bold';
+
+  margin-top: 68px;
+
+  color: #56534c;
+}
+
+.breakfast-menu .second
+{
+  margin: 0 0 30px;
+}
+
+.breakfast-menu p
+{
+  font: 14px 'Proxima Nova';
+  line-height: 1.4;
+
+  letter-spacing: 1px;
+}
+
+.breakfast-menu .button
+{
+  display: inline-block;
+
+  width: 190px;
+  height: 50px;
+  margin-top: 35px;
+  padding: 12px;
+
+  border: 1px solid #9e9c93;
+}
+
+.breakfast-menu .read
+{
+  font: 18px 'Alegreya-Bold';
+
+  text-transform: uppercase;
+
+  color: #a47d5e;
+}
+
+/******sandwich-left******/
+/*************************/
+
+.sandwich
+{
+  background: #f3f1e9;
+}
+
+.head
+{
+  height: 170px;
+  padding-top: 68px;
+
+  text-align: center;
+
+  background: url(../images/small-windmill.png) center 13px no-repeat;
+}
+
+.head h1
+{
+  font: 48px 'Alegreya-Bold';
+
+  margin-bottom: 0;
+
+  letter-spacing: 1px;
+
+  color: #56534c;
+}
+
+.head h2
+{
+  font: 14px 'Alegreya-Bold';
+
+  margin-top: 0;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #a47d5e;
+}
+
+.ingridients
+{
+  height: 830px;
+
+  text-align: center;
+}
+
+.ingridients img
+{
+  border-radius: 50%;
+  box-shadow: 0 4px 8px #e7e3d3;
+}
+
+.ingridients img:nth-child(n+2)
+{
+  margin-top: 62px;
+}
+
+.ingridients h1
+{
+  font: 30px 'Alegreya-Bold';
+
+  letter-spacing: 1px;
+
+  color: #a47d5e;
+}
+
+.ingridients h2
+{
+  font: 14px 'Proxima Nova';
+
+  margin: 0;
+
+  letter-spacing: 1px;
+
+  color: #56534c;
+}
+
+/******sandwich-right******/
+/**************************/
+
+.sandwich-right img
+{
+  width: 100%;
+  margin-top: 90px;
+
+  box-shadow: 0 10px 15px #e7e3d3;
+}
+
+.info
+{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 24px;
+  top: 65px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .8);
+  padding-top: 44px;
+}
+
+.info h1
+{
+  font: 18px 'Alegreya-Bold';
+  color: #a47d5e;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.info h2
+{
+  font: 60px 'Alegreya-Bold';
+  color: #56534c;
+  margin: 0;
+  letter-spacing: 4px;
+  margin-top: -5px;
+}
+
+.info p
+{
+  font: 18px 'Alegreya-Bold';
+  color: #979285;
+  letter-spacing: 2px;
+  margin-top: -10px;
+}
+
+.info.info2 {
+  top: 266px;
+}
+
+.info.info3 {
+  top: 467px;
+  background: url(../images/ready-bg.png);
+  box-shadow: 0 10px 15px #e7e3d3;
+}
+
+.info.info3 h2 {
+  font: 92px 'Alegreya-Bold';
+  color: #dfc691;
+  margin-top: -15px;
+}
