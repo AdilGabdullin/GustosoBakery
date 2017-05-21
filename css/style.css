@@ -65,7 +65,8 @@ html
 .main h1
 {
   font-family: 'Playfair Display';
-  font-size: 5.75vw;
+  /*font-size: 5.75vw;*/
+  font-size: calc(3.72vw + 24.61px);
   font-weight: bold;
   line-height: 1;
 
@@ -81,7 +82,7 @@ html
 .main h2
 {
   font-family: 'Proxima Nova';
-  font-size: 24px;
+  font-size: calc(0.33vw + 17.63px);
   line-height: 1.5;
 
   margin: 0;
@@ -91,6 +92,14 @@ html
 
   color: rgb(255, 255, 255);
   text-shadow: 0 1px 0 rgba(61, 48, 41, .004);
+}
+
+@media (max-device-width: 420px) {
+.main h1,
+.main h2
+{
+  letter-spacing: 0;
+}
 }
 
 .menu-button
@@ -158,7 +167,7 @@ html
   z-index: 1;
 
   border-top: none;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 .icon1
@@ -263,6 +272,13 @@ html
 
   letter-spacing: 1px;
 }
+@media (max-device-width: 420px) {
+.cakes-left .cook-words
+{
+  width: auto;
+  letter-spacing: 0;
+}
+}
 
 .cakes-left .rank
 {
@@ -307,7 +323,38 @@ html
   height: 100px;
   margin: 41px auto;
 }
+@media (max-device-width: 420px) {
+.cook-name
+{
+  width: 95vw;
+}
 
+.cook-name p
+{
+  font: 24px 'Alegreya';
+  line-height: 60px;
+
+  position: absolute;
+  top: 20px;
+
+  width: 30vw;
+  height: 60px;
+
+  border-top: 1px rgb(215, 213, 202) solid;
+  border-bottom: 1px rgb(215, 213, 202) solid;
+}
+
+.cook-name .surname
+{
+  left: 60vw;
+}
+
+.citation
+{
+  width: 90vw;
+}
+
+}
 .citation p
 {
   font-family: 'Times New Roman';
@@ -393,6 +440,33 @@ html
   opacity: .9;
 }
 
+@media (max-device-width: 420px) {
+  .cakes-right
+  {
+    height: auto;
+  }
+
+  .cakes-wrap
+  {
+    position: relative;
+    height: auto;
+    width: 95vw;
+    margin: 130px auto;
+  }
+
+  .cakes-right .cake
+  {
+    width: 90vw;
+    outline: 6px solid #f5f5f5;
+    outline-offset: -11px;
+  }
+
+  .so-good,
+  .cakes-wrap p
+  {
+    visibility: hidden;
+  }
+}
 /******pancakes******/
 /********************/
 
@@ -410,6 +484,18 @@ html
   text-align: center;
 }
 
+@media (max-device-width: 420px) {
+  .pancakes-left
+  {
+    margin-top: 0;
+    height: auto;
+  }
+  .pancakes-left img
+  {
+    width: 85vw;
+  }
+
+}
 .pancakes-right
 {
   position: relative;
@@ -429,13 +515,11 @@ html
   background-color: white;
 }
 
-
-
 .tasty img
 {
   position: absolute;
   top: 225px;
-  left: 278px;
+  right: 0;
 }
 
 .tasty h1
@@ -519,6 +603,47 @@ html
   color: #979285;
 }
 
+@media (max-device-width: 420px) {
+  .tasty {
+    width: 86vw;
+    padding-left: 5px;
+  }
+  .tasty h1{
+    font-size: 40px;
+  }
+  .tasty p
+  {
+    font-size: 14px;
+    letter-spacing: 0;
+    width: auto;
+  }
+  .ready
+  {
+    top: -73px;
+    right: -5px;
+    left: auto;
+    width: 150px;
+    height: 150px;
+    padding-top: 23px;
+  }
+
+  .ready h1
+  {
+    font-size: 14px;
+  }
+
+  .ready h2
+  {
+    font-size: 68px;
+    margin: 20px;
+  }
+
+  .ready h3
+  {
+    font-size: 14px;
+  }
+}
+
 /******carousel******/
 /********************/
 
@@ -551,6 +676,27 @@ html
   border: 2px solid #674b35;
   border-radius: 50% 50%;
   background-image: none;
+}
+
+@media (max-device-width: 420px) {
+  .carousel
+  {
+    width: 85vw;
+    margin: -260px auto 0;
+  }
+
+  .item
+  {
+    padding-left: 9vw;
+  }
+
+  .item img
+  {
+    margin-right: 2vw;
+    width: 20vw;
+  }
+
+
 }
 
 /******breakfast******/
@@ -840,6 +986,51 @@ html
   color: #a47d5e;
 }
 
+@media (max-device-width: 420px) {
+  .breakfast-menu
+  {
+    width: 90vw;
+  }
+  .breakfast-menu .menu-wrap {
+    width: 85vw;
+  }
+
+  .bottom
+  {
+    width: 77.4vw;
+  }
+
+  .bottom .dashed
+  {
+    width: 74.5vw;
+  }
+  .breakfast-menu h1
+  {
+    font: 34px 'Alegreya-Bold';
+
+    margin-top: 38px;
+  }
+
+  .breakfast-menu p
+  {
+    font: 14px 'Proxima Nova';
+    line-height: 1.4;
+
+    letter-spacing: 0;
+  }
+
+  .pretzel .circle,
+  .pretzel .line,
+  .pretzel .big-circle,
+  .shadow,
+  .shadow .dashed,
+  .shadow2,
+  .shadow2 .dashed
+  {
+    display: none;
+    visibility: hidden;
+  }
+}
 /******sandwich-left******/
 /*************************/
 
@@ -850,7 +1041,7 @@ html
 
 .head
 {
-  height: 170px;
+  /*height: 170px;*/
   padding-top: 68px;
 
   text-align: center;
@@ -981,4 +1172,59 @@ html
   font: 92px 'Alegreya-Bold';
   color: #dfc691;
   margin-top: -15px;
+}
+
+@media (max-device-width: 420px) {
+  .sandwich-right {
+    height: 150vw;
+  }
+
+  .sandwich-right img
+  {
+    margin: 0;
+  }
+
+  .info
+    {
+      width: 100px;
+      height: 100px;
+      top: -25px;
+      padding-top: 20px;
+    }
+
+  .info h1
+  {
+    font: 9px 'Alegreya-Bold';
+    letter-spacing: 1px;
+  }
+
+  .info h2
+  {
+    font: 30px 'Alegreya-Bold';
+    letter-spacing: 2px;
+
+  }
+
+  .info p
+  {
+    font: 9px 'Alegreya-Bold';
+    letter-spacing: 1px;
+    margin-top: -10px;
+  }
+
+  .info.info2 {
+    top: 76px;
+  }
+
+  .info.info3 {
+    top: 177px;
+    background: url(../images/ready-bg.png);
+    box-shadow: 0 10px 15px #e7e3d3;
+  }
+
+  .info.info3 h2 {
+    font: 46px 'Alegreya-Bold';
+    color: #dfc691;
+    margin-top: -15px;
+  }
 }
